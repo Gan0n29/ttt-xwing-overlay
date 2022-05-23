@@ -53,14 +53,14 @@ export class AddStreamComponent implements OnInit {
       shipPSLocation:"icon",
       shipDestroyedStrikethrough: false,
       shipDestroyedOpacity: 0.5,
-      maxPoints: 20,
+      maxPoints: 200,
       scenarioName: "",
-      showScenario:true,
+      showScenario:false,
       scenarioFontSize:1.5,
       scenarioYAdjustment:0,
       turnNumber:0,
       turnNumberMax:12,
-      showTurnTracker:true,
+      showTurnTracker:false,
       turnTrackerFontSize:1.5,
       scoringHalfHealthShips:'Half'
 
