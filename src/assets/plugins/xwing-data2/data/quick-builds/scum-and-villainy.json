@@ -1302,6 +1302,311 @@
           }
         }
       ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "tapusk",
+          "upgrades": {
+            "talent": ["cutthroat"],
+            "crew": ["gamutkey"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "spicerunner",
+          "upgrades": {
+            "crew": ["hondoohnaka"],
+            "device": ["concussionbombs"],
+            "illicit": ["falsetranspondercodes"],
+            "modification": ["engineupgrade"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "gamutkey",
+          "upgrades": {
+            "talent": ["elusive"],
+            "illicit": ["falsetranspondercodes"],
+            "modification": ["engineupgrade"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "kananjarrus-hwk290lightfreighter",
+          "upgrades": {
+            "force-power": ["patience"],
+            "device": ["thermaldetonators"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "genesisred",
+          "upgrades": {
+            "talent": ["outmaneuver"],
+            "torpedo": ["protontorpedoes"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "tansariipointveteran",
+          "upgrades": {
+            "talent": ["predator"],
+            "modification": ["hullupgrade"],
+            "torpedo": ["protontorpedoes"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "quinnjast",
+          "upgrades": {
+            "talent": ["elusive"],
+            "modification": ["afterburners"],
+            "torpedo": ["iontorpedoes"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "inaldra",
+          "upgrades": {
+            "talent": ["predator"],
+            "modification": ["afterburners"],
+            "torpedo": ["iontorpedoes"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "serissu",
+          "upgrades": {
+            "talent": ["elusive"],
+            "modification": ["hullupgrade"],
+            "cannon": ["jammingbeam"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "laetinashera",
+          "upgrades": {
+            "talent": ["outmaneuver"],
+            "modification": ["afterburners"],
+            "cannon": ["ioncannon"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "sunnybounder",
+          "upgrades": {
+            "talent": ["intimidation"],
+            "modification": ["shieldupgrade"],
+            "torpedo": ["iontorpedoes"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "cartelspacer",
+          "upgrades": {
+            "talent": ["intimidation"],
+            "modification": ["shieldupgrade"],
+            "cannon": ["ioncannon"],
+            "cannon": ["jammingbeam"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "arlizhadrassian",
+          "upgrades": {
+            "talent": ["predator"],
+            "astromech": ["r5tk"],
+            "gunner": ["suppressivegunner"],
+            "device": ["thermaldetonators"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "padric",
+          "upgrades": {
+            "talent": ["predator"],
+            "astromech": ["genius"],
+            "turret": ["dorsalturret"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "amaxinewarrior",
+          "upgrades": {
+            "talent": ["cutthroat"],
+            "astromech": ["r5astromech"],
+            "device": ["thermaldetonators"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "leemakai",
+          "upgrades": {
+            "talent": ["margsablclosure", "saturationsalvo"],
+            "astromech": ["r4b11"],
+            "turret": ["ioncannonturret"],
+            "gunner": ["weaponssystemsofficer"],
+            "device": ["concussionbombs"],
+            "torpedo": ["plasmatorpedoes"],
+            "tech": ["targetingsynchronizer"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "jinatasecurityofficer",
+          "upgrades": {
+            "astromech": ["r3astromech"],
+            "gunner": ["weaponssystemsofficer"],
+            "torpedo": ["protontorpedoes"],
+            "tech": ["automatedtargetpriority"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 4,
+      "pilots": [
+        {
+          "id": "bossk",
+          "upgrades": {
+            "talent": ["predator"],
+            "crew": ["gnkgonkdroid"],
+            "gunner": ["bt1"],
+            "missile": ["homingmissiles"],
+            "title": ["houndstooth"]
+          }
+        },
+        {
+          "id": "nashtahpup",
+          "upgrades": {
+            "talent": ["predator"],
+            "illicit": ["feedbackarray"],
+            "missile": ["homingmissiles"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 4,
+      "pilots": [
+        {
+          "id": "moraloeval",
+          "upgrades": {
+            "talent": ["squadleader"],
+            "crew": ["tacticalofficer"],
+            "cannon": ["tractorbeam"],
+            "illicit": ["feedbackarray"],
+            "modification": ["ablativeplating"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "lattsrazzi",
+          "upgrades": {
+            "talent": ["predator"],
+            "illicit": ["feedbackarray"],
+            "gunner": ["bossk"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "trandoshanslaver",
+          "upgrades": {
+            "missile": ["homingmissiles"],
+            "illicit": ["feedbackarray"],
+            "gunner": ["greedo"],
+            "crew": ["cikatrovizago", "freelanceslicer"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "bossk-z95af4headhunter",
+          "upgrades": {
+            "talent": ["predator"],
+            "missile": ["homingmissiles"],
+            "illicit": ["feedbackarray"],
+            "modification": ["afterburners"]
+          }
+        }
+      ]
     }
   ]
 }
