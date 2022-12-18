@@ -18,6 +18,7 @@
     "3YR",
     "4FW"
   ],
+  "dialCodes": ["GtF"],
   "faction": "Separatist Alliance",
   "stats": [
     { "arc": "Front Arc", "type": "attack", "value": 3 },
@@ -40,7 +41,7 @@
       "caption": "Vizsla's Lieutenant",
       "ability": "Before a friendly ship at range 0-2 activates, you may spend 1 [Charge]. If you do, that ship may gain 1 strain token to remove 1 non-stress red or orange token.",
       "cost": 7,
-      "loadout": 24,
+      "loadout": 20,
       "initiative": 4,
       "limited": 1,
       "standard": true,
@@ -58,6 +59,7 @@
         "Configuration",
         "Title"
       ],
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/bokatankryze-separatist-alliance.png",
       "keywords": ["Mandalorian"]
     },
     {
@@ -81,6 +83,7 @@
         "Modification",
         "Configuration"
       ],
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/previzsla.png",
       "keywords": ["Mandalorian"],
       "caption": "Leader of Death Watch"
     },
@@ -103,6 +106,7 @@
         "Modification",
         "Configuration"
       ],
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/deathwatchwarrior.png",
       "keywords": ["Mandalorian"],
       "caption": "Fanatical Adherent"
     }

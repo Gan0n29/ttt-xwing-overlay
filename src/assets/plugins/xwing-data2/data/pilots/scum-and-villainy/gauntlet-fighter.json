@@ -18,6 +18,7 @@
     "3YR",
     "4FW"
   ],
+  "dialCodes": ["GtF"],
   "faction": "Scum and Villainy",
   "stats": [
     { "arc": "Front Arc", "type": "attack", "value": 3 },
@@ -39,8 +40,8 @@
       "image": "https://infinitearenas.com/xw2/images/pilots/maul.png",
       "ability": "While you perform a [Coordinate] action, if you choose a ship with an initiative lower than yours, you may spend 1 [Force]. If you do, treat the action as white and you may coordinate 1 additional friendly ship with an initiative lower than yours; each friendly ship you coordinate this way gains 1 strain token.",
       "force": { "side": ["dark"], "value": 3, "recovers": 1 },
-      "cost": 8,
-      "loadout": 27,
+      "cost": 9,
+      "loadout": 20,
       "initiative": 5,
       "limited": 1,
       "standard": true,
@@ -59,6 +60,7 @@
         "Configuration",
         "Title"
       ],
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/maul.png",
       "keywords": ["Dark Side"],
       "caption": "Lord of the Shadow Collective"
     },
@@ -78,12 +80,12 @@
         "Talent",
         "Crew",
         "Gunner",
-        "Missile",
         "Device",
         "Illicit",
         "Modification",
         "Configuration"
       ],
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/rookkast.png",
       "keywords": ["Mandalorian"],
       "caption": "Stoic Super Commando"
     },
@@ -107,6 +109,7 @@
         "Modification",
         "Configuration"
       ],
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/shadowcollectiveoperator.png",
       "keywords": ["Mandalorian"]
     }
   ]

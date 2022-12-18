@@ -79,7 +79,7 @@
       "image": "https://squadbuilder.fantasyflightgames.com/card_images/en/88959087710ec5a80a16dd93573f149d.png",
       "standard": true,
       "extended": true,
-      "cost": 8,
+      "cost": 7,
       "loadout": 24,
       "slots": [
         "Cannon",
@@ -107,7 +107,7 @@
       "standard": true,
       "extended": true,
       "cost": 6,
-      "loadout": 6,
+      "loadout": 9,
       "slots": ["Cannon", "Torpedo", "Device", "Modification"],
       "ffg": 506,
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/8b9c158df033daab2ea6acecd29c5c0d.jpg",
@@ -117,7 +117,7 @@
       "name": "0-66",
       "xws": "066",
       "cost": 6,
-      "loadout": 11,
+      "loadout": 16,
       "slots": [
         "Talent",
         "Torpedo",
@@ -141,6 +141,30 @@
       "standard": true,
       "extended": true,
       "keywords": ["Droid"],
+      "epic": true
+    },
+    {
+      "name": "Count Dooku",
+      "caption": "Siege of Coruscant",
+      "initiative": 5,
+      "limited": 1,
+      "cost": 6,
+      "xws": "countdooku-siegeofcoruscant",
+      "ability": "During an attack, before a ship at range 0-2 rolls attack or defense dice, if all of your [Force] are active, you may spend 1 [Force] and name a result. If the roll does not contain the named result, the ship must change 1 die to that result.",
+      "shipActions": [
+        { "difficulty": "White", "type": "Focus" },
+        { "difficulty": "White", "type": "Lock" },
+        { "difficulty": "White", "type": "Jam" },
+        { "difficulty": "Red", "type": "Barrel Roll" },
+        { "difficulty": "Red", "type": "Cloak" }
+      ],
+      "image": "https://infinitearenas.com/xw2/images/quickbuilds/countdooku-siegeofcoruscant.png",
+      "force": { "value": 3, "recovers": 1, "side": ["dark"] },
+      "standardLoadout": ["malice", "roilinganger-siegeofcoruscant", "scimitar"],
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/countdooku.png",
+      "standard": true,
+      "extended": true,
+      "keywords": ["Dark Side", "Sith"],
       "epic": true
     }
   ],
