@@ -28,8 +28,7 @@
     { "type": "attack", "arc": "Bullseye Arc", "value": 3 },
     { "type": "attack", "arc": "Front Arc", "value": 2 },
     { "type": "agility", "value": 3 },
-    { "type": "hull", "value": 3 },
-    { "type": "shields", "value": 0 }
+    { "type": "hull", "value": 3 }
   ],
   "actions": [
     { "type": "Focus", "difficulty": "White" },
@@ -53,7 +52,7 @@
         "name": "Intuitive Controls",
         "text": "During the System Phase, you may perform a purple [Barrel Roll] or purple [Boost] action."
       },
-      "cost": 7,
+      "cost": 6,
       "loadout": 20,
       "ffg": 781,
       "image": "https://images-cdn.fantasyflightgames.com/filer_public/ef/ca/efcac3d6-868a-4e99-a872-3f2265e4983e/swz79_anakin-skywalker.png",
@@ -84,11 +83,11 @@
       "force": { "value": 3, "recovers": 1 },
       "ability": "After you or a friendly Anakin Skywalker ship at range 0-3 executes a maneuver, if there are more enemy ships than other friendly ships at range 0-1 of that ship, you may spend 1 [Force]. If you do, that ship gains 1 focus token.",
       "cost": 5,
-      "loadout": 10,
+      "loadout": 15,
       "ffg": 782,
       "image": "https://images-cdn.fantasyflightgames.com/filer_public/2d/36/2d3610e5-ebc0-4448-8fb3-4b6dcc5f391a/swz79_obi-wan_kenobi.png",
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/7718872b876f1cd2a508276a6b79e187.jpg",
-      "slots": ["Talent", "Force Power", "Astromech", "Modification", "Cannon"],
+      "slots": ["Talent", "Force Power", "Force Power", "Astromech", "Modification", "Cannon"],
       "keywords": ["Jedi", "Light Side"],
       "epic": true
     },
@@ -107,11 +106,11 @@
       "force": { "value": 2, "recovers": 1 },
       "ability": "While an enemy ship in your [Front Arc] at range 0-1 performs an attack, the defender may change 1 blank result to a [Focus] result.",
       "cost": 5,
-      "loadout": 10,
+      "loadout": 15,
       "ffg": 783,
       "image": "https://images-cdn.fantasyflightgames.com/filer_public/c2/e2/c2e2ee1f-1bdd-4ff7-ad95-c442af9b510a/swz79_aayla-secura.png",
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/a2171b5544ebfd56e22775efa9b73fc4.jpg",
-      "slots": ["Talent", "Force Power", "Astromech", "Modification", "Cannon"],
+      "slots": ["Talent", "Force Power", "Force Power", "Astromech", "Modification", "Cannon"],
       "keywords": ["Jedi", "Light Side"],
       "epic": true
     },
@@ -130,11 +129,11 @@
       "force": { "value": 2, "recovers": 1 },
       "ability": "At the start of the End Phase, you may spend any number of [Force] to choose that many friendly ships at range 0-2. Each chosen ship does not remove 1 focus or evade token during this End Phase.",
       "cost": 5,
-      "loadout": 8,
+      "loadout": 18,
       "ffg": 784,
       "image": "https://images-cdn.fantasyflightgames.com/filer_public/fa/6a/fa6afe10-be85-46ee-93e6-0637b3ce34b0/swz79_shaak-ti.png",
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/c6e6e480dbdf934d2a7d04f1800f5e45.jpg",
-      "slots": ["Talent", "Force Power", "Astromech", "Modification", "Cannon"],
+      "slots": ["Talent", "Force Power", "Force Power", "Astromech", "Modification", "Cannon"],
       "keywords": ["Jedi", "Light Side"],
       "epic": true
     },
@@ -175,7 +174,7 @@
       "force": { "value": 3, "recovers": 1 },
       "ability": "After another friendly ship at range 0-3 spends 1 or more [Force], you may spend 1 [Force]. If you do, that ship recovers 1 [Force].",
       "cost": 5,
-      "loadout": 12,
+      "loadout": 16,
       "ffg": 785,
       "image": "https://images-cdn.fantasyflightgames.com/filer_public/5b/fb/5bfbf23b-29c5-47c9-a6ba-1a2a7ddba319/swz79_yoda.png",
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/cbe2495ee143163b82cd7808fbb4f7cd.jpg",
@@ -185,6 +184,97 @@
         "Astromech",
         "Modification",
         "Cannon"
+      ],
+      "keywords": ["Jedi", "Light Side"],
+      "epic": true
+    },
+    {
+      "name": "Anakin Skywalker",
+      "caption": "Siege of Coruscant",
+      "initiative": 6,
+      "limited": 1,
+      "shipAbility": {
+        "name": "Intuitive Controls",
+        "text": "During the System Phase, you may perform a purple [Barrel Roll] or purple [Boost] action."
+      },
+      "cost": 5,
+      "xws": "anakinskywalker-siegeofcoruscant",
+      "ability": "After you or a friendly Obi-Wan Kenobi ship at range 0-3 fully executes a maneuver, if there are more enemy ships than other friendly ships at range 0-1 of that ship, you may spend 1 [Force]. If you do, that ship may perform a [Barrel Roll] action.",
+      "force": { "value": 3, "recovers": 1 },
+      "image": "https://infinitearenas.com/xw2/images/quickbuilds/anakinskywalker-siegeofcoruscant.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/anakinskywalker-eta2actis.png",
+      "standardLoadout": ["malice", "ancillaryionweapons-siegeofcoruscant",  "r2d2-republic"],
+      "standard": true,
+      "extended": true,
+      "keywords": ["Dark Side", "Jedi", "Light Side"],
+      "epic": true
+    },
+    {
+      "name": "Obi-Wan Kenobi",
+      "caption": "Siege of Coruscant",
+      "initiative": 5,
+      "limited": 1,
+      "shipAbility": {
+        "name": "Intuitive Controls",
+        "text": "During the System Phase, you may perform a purple [Barrel Roll] or purple [Boost] action."
+      },
+      "cost": 4,
+      "xws": "obiwankenobi-siegeofcoruscant",
+      "ability": "After you or a friendly Anakin Skywalker at range 0-3 fully executes a maneuver, if there are more enemy ships than other friendly ships at range 0-1 of that ship, you may spend 1 [Force]. If you do, that ship may perform a [Boost] action.",
+      "force": { "value": 3, "recovers": 1 },
+      "image": "https://infinitearenas.com/xw2/images/quickbuilds/obiwankenobi-siegeofcoruscant.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/obiwankenobi-eta2actis.png",
+      "standardLoadout": ["patience", "ancillaryionweapons-siegeofcoruscant",  "r4p17-siegeofcoruscant"],
+      "standard": true,
+      "extended": true,
+      "keywords": ["Jedi", "Light Side"],
+      "epic": true
+    },
+    {
+      "name": "Shaak Ti",
+      "caption": "Siege of Coruscant",
+      "initiative": 4,
+      "limited": 1,
+      "shipAbility": {
+        "name": "Intuitive Controls",
+        "text": "During the System Phase, you may perform a purple [Barrel Roll] or purple [Boost] action."
+      },
+      "cost": 4,
+      "xws": "shaakti-siegeofcoruscant",
+      "ability": "At the start of the End Phase, you may perfrom a purple [Coordinate] action, even while stressed. After you perform a [Coordinate] action, if the chosen ship has the Born for This ship ability, you may coordinate 1 additional ship.",
+      "force": { "value": 2, "recovers": 1 },
+      "image": "https://infinitearenas.com/xw2/images/quickbuilds/shaakti-siegeofcoruscant.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/shaakti-eta2actis.png",
+      "standardLoadout": ["marksmanship", "brilliantevasion", "ancillaryionweapons-siegeofcoruscant",  "r4pastromech"],
+      "standard": true,
+      "extended": true,
+      "keywords": ["Jedi", "Light Side"],
+      "epic": true
+    },
+    {
+      "name": "Kit Fisto",
+      "xws": "kitfisto",
+      "initiative": 4,
+      "limited": 1,
+      "shipAbility": {
+        "name": "Intuitive Controls",
+        "text": "During the System Phase, you may perform a purple [Barrel Roll] or purple [Boost] action."
+      },
+      "caption": "Enthusiastic Exemplar",
+      "standard": true,
+      "extended": true,
+      "force": { "value": 2, "recovers": 1 },
+      "ability": "While another friendly ship defends, if the attacker is in its [Bullseye Arc], you may spend 1 [Force] to change 1 of the defender's blank results to a [Focus] result.",
+      "cost": 4,
+      "loadout": 8,
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/kitfisto.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/kitfisto.png",
+      "slots": [
+        "Force Power",
+        "Force Power",
+        "Talent",
+        "Astromech",
+        "Modification"
       ],
       "keywords": ["Jedi", "Light Side"],
       "epic": true

@@ -81,7 +81,7 @@
         "text": "You can equip 1 [Cannon], [Torpedo], or [Missile] upgrade."
       },
       "cost": 6,
-      "loadout": 12,
+      "loadout": 19,
       "charges": { "value": 2, "recovers": 1 },
       "slots": [
         "Talent",
@@ -174,8 +174,8 @@
         "name": "Weapon Hardpoint",
         "text": "You can equip 1 [Cannon], [Torpedo], or [Missile] upgrade."
       },
-      "cost": 6,
-      "loadout": 14,
+      "cost": 5,
+      "loadout": 11,
       "slots": [
         "Talent",
         "Talent",
@@ -204,7 +204,7 @@
         "text": "You can equip 1 [Cannon], [Torpedo], or [Missile] upgrade."
       },
       "cost": 5,
-      "loadout": 12,
+      "loadout": 9,
       "slots": ["Talent", "Astromech", "Modification", "Configuration", "Tech"],
       "image": "https://squadbuilder.fantasyflightgames.com/card_images/en/df85f5b77e16363a05c8f68792440166.png",
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/b5b43d179b039649e764e6bd4f212a29.jpg",
@@ -226,7 +226,7 @@
         "text": "You can equip 1 [Cannon], [Torpedo], or [Missile] upgrade."
       },
       "cost": 5,
-      "loadout": 13,
+      "loadout": 10,
       "slots": [
         "Talent",
         "Astromech",
@@ -276,8 +276,8 @@
         "name": "Weapon Hardpoint",
         "text": "You can equip 1 [Cannon], [Torpedo], or [Missile] upgrade."
       },
-      "cost": 6,
-      "loadout": 13,
+      "cost": 5,
+      "loadout": 10,
       "slots": [
         "Talent",
         "Astromech",
@@ -307,8 +307,8 @@
       },
       "image": "https://squadbuilder.fantasyflightgames.com/card_images/en/5f3abacb9a081f5a3ca42f7a30da0e6c.png",
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/8874efb312a64da49889c66f96338f9c.jpg",
-      "cost": 4,
-      "loadout": 8,
+      "cost": 5,
+      "loadout": 13,
       "slots": ["Astromech", "Modification", "Configuration", "Tech"],
       "ffg": 450,
       "standard": true,
@@ -329,8 +329,8 @@
       },
       "image": "https://squadbuilder.fantasyflightgames.com/card_images/en/bc26d8864f421f1362473aa4982108ba.png",
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/05c48dc381e54c6951d3ee42d3587577.jpg",
-      "cost": 6,
-      "loadout": 16,
+      "cost": 5,
+      "loadout": 11,
       "charges": { "value": 1, "recovers": 1 },
       "slots": ["Astromech", "Modification", "Configuration", "Tech"],
       "ffg": 423,
@@ -353,7 +353,7 @@
       "image": "https://squadbuilder.fantasyflightgames.com/card_images/en/bb98b7ea3a580542b586a9999fd352c9.png",
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/6acd118b12a34136d4d1df6c765a0deb.jpg",
       "cost": 5,
-      "loadout": 13,
+      "loadout": 11,
       "slots": [
         "Talent",
         "Astromech",
@@ -380,7 +380,7 @@
         "text": "You can equip 1 [Cannon], [Torpedo], or [Missile] upgrade."
       },
       "cost": 6,
-      "loadout": 14,
+      "loadout": 17,
       "slots": [
         "Talent",
         "Astromech",
@@ -408,8 +408,8 @@
         "name": "Weapon Hardpoint",
         "text": "You can equip 1 [Cannon], [Torpedo], or [Missile] upgrade."
       },
-      "cost": 4,
-      "loadout": 7,
+      "cost": 5,
+      "loadout": 13,
       "slots": ["Talent", "Astromech", "Modification", "Configuration", "Tech"],
       "standard": true,
       "extended": true,
@@ -438,6 +438,62 @@
       "ability": "While you perform an attack, if the defender's initiative is higher than yours, you may change 1 blank result to a [Focus] result.",
       "image": "https://images-cdn.fantasyflightgames.com/filer_public/c1/0e/c10e3900-82d8-4bba-9b2b-9ed2f8ad826b/swz68_nimi-chireen.png",
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/8c6284a4820a6c6f83eb60111d4ba978.jpg",
+      "keywords": ["X-wing"],
+      "epic": true
+    },
+    {
+      "name": "Venisa Doza",
+      "xws": "venisadoza",
+      "initiative": 4,
+      "limited": 1,
+      "shipAbility": {
+        "name": "Weapon Hardpoint",
+        "text": "You can equip 1 [Cannon], [Torpedo], or [Missile] upgrade."
+      },
+      "caption": "Jade Leader",
+      "standard": true,
+      "extended": true,
+      "cost": 5,
+      "loadout": 13,
+      "slots": [
+        "Talent",
+        "Tech", 
+        "Missile",
+        "Missile",
+        "Astromech", 
+        "Modification",
+        "Modification", 
+        "Configuration"],
+      "ability": "While you perform a [Torpedo] or [Missile] attack, you may treat the [Front Arc] requirement as [Rear Arc] for that attack. If you do, treat the range requirement as 1-2.",
+      "image": "https://infinitearenas.com/xw2/images/pilots/venisadoza.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/venisadoza.png",
+      "keywords": ["X-wing"],
+      "epic": true
+    },
+    {
+      "name": "Zay Versio",
+      "xws": "zayversio",
+      "initiative": 3,
+      "limited": 1,
+      "shipAbility": {
+        "name": "Weapon Hardpoint",
+        "text": "You can equip 1 [Cannon], [Torpedo], or [Missile] upgrade."
+      },
+      "caption": "Her Father's Daughter",
+      "standard": true,
+      "extended": true,
+      "cost": 4,
+      "loadout": 7,
+      "slots": [
+        "Talent",
+        "Talent",
+        "Tech", 
+        "Astromech", 
+        "Modification", 
+        "Configuration"],
+      "ability": "While you defend, if the attacker is damaged, you may reroll 1 defense die.",
+      "image": "https://infinitearenas.com/xw2/images/pilots/zayversio.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/zayversio.png",
       "keywords": ["X-wing"],
       "epic": true
     }

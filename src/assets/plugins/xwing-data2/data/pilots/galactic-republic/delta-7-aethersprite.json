@@ -81,9 +81,10 @@
       "slots": [
         "Astromech",
         "Modification",
+        "Modification",
         "Force Power",
         "Force Power",
-        "Missile",
+        "Talent",
         "Configuration"
       ],
       "ffg": 511,
@@ -107,13 +108,12 @@
       "standard": true,
       "extended": true,
       "cost": 5,
-      "loadout": 12,
+      "loadout": 8,
       "slots": [
         "Astromech",
         "Modification",
         "Force Power",
         "Talent",
-        "Missile",
         "Configuration"
       ],
       "ffg": 513,
@@ -165,8 +165,7 @@
         "Astromech",
         "Modification",
         "Force Power",
-        "Force Power",
-        "Configuration"
+        "Force Power"
       ],
       "ffg": 512,
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/ba6c851af3b8f650d8dcb865a05636f2.jpg",
@@ -195,7 +194,7 @@
         "Modification",
         "Force Power",
         "Force Power",
-        "Missile",
+        "Talent",
         "Configuration"
       ],
       "ffg": 507,
@@ -205,7 +204,7 @@
     },
     {
       "name": "Ahsoka Tano",
-      "caption": "“Snips\"",
+      "caption": "“Snips”",
       "initiative": 3,
       "limited": 1,
       "xws": "ahsokatano",
@@ -219,7 +218,7 @@
       "extended": true,
       "image": "https://squadbuilder.fantasyflightgames.com/card_images/en/15f6bf84f63970c982dd722a5473217f.png",
       "cost": 4,
-      "loadout": 9,
+      "loadout": 7,
       "slots": ["Astromech", "Modification", "Force Power", "Configuration"],
       "ffg": 510,
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/0fc229b9b79c9f6c750a587614729293.jpg",
@@ -241,13 +240,12 @@
       "standard": true,
       "extended": true,
       "image": "https://squadbuilder.fantasyflightgames.com/card_images/en/f8f58005da18d7041b1ec2374701465c.png",
-      "cost": 3,
-      "loadout": 7,
+      "cost": 4,
+      "loadout": 9,
       "slots": [
         "Astromech",
         "Modification",
         "Force Power",
-        "Missile",
         "Configuration"
       ],
       "ffg": 509,
@@ -275,6 +273,28 @@
       "slots": ["Astromech", "Modification", "Force Power", "Configuration"],
       "ffg": 508,
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/22519908330c72696863815565a2beda.jpg",
+      "keywords": ["Jedi", "Light Side"],
+      "epic": true
+    },
+    {
+      "name": "Adi Gallia",
+      "caption": "Shooting Star",
+      "initiative": 5,
+      "limited": 1,
+      "xws": "adigallia",
+      "ability": "While you defend at attack range 1, you may spend 1 [Force]. If you do, the attacker cannot apply the range bonus. While you perform an attack against a defender at attack range 3, you may spend 1 [Force]. If you do, the defender cannot apply the range bonus.",
+      "shipAbility": {
+        "name": "Fine-tuned Controls",
+        "text": "After you fully execute a maneuver, you may spend 1 [Force] to perform a [Boost] or [Barrel Roll] action."
+      },
+      "force": { "value": 2, "recovers": 1, "side": ["light"] },
+      "standard": true,
+      "extended": true,
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/adigallia.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/adigallia.png",
+      "cost": 5,
+      "loadout": 12,
+      "slots": ["Force Power", "Talent", "Astromech", "Configuration", "Modification"],
       "keywords": ["Jedi", "Light Side"],
       "epic": true
     }
