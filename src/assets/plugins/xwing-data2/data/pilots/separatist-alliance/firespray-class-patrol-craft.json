@@ -76,7 +76,7 @@
       "conditions": ["youdbettermeanbusiness", "youshouldthankme"],
       "standard": true,
       "extended": true,
-      "ability": "Setup: Lose 2 [Charge]. During the System Phase, you may assign 1 of your secret conditions to yourself facedown: \"You Should Thank Me\" or \"You'd Better Mean Business\"",
+      "ability": "Setup: Lose 2 [Charge]. During the System Phase, you may assign 1 of your secret conditions to yourself facedown: “You Should Thank Me” or “You'd Better Mean Business”",
       "cost": 9,
       "loadout": 22,
       "ffg": 801,
@@ -135,6 +135,32 @@
       "image": "https://images-cdn.fantasyflightgames.com/filer_public/16/8c/168ca8f4-0015-44a3-9a7c-099caff70881/swz82_a1_separatist-racketeer.png",
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/fd061204d3235827f2457d5be76cc18b.jpg",
       "slots": ["Cannon", "Missile", "Device"],
+      "epic": true
+    },
+    {
+      "name": "Aurra Sing",
+      "xws": "aurrasing",
+      "initiative": 4,
+      "limited": 1,
+      "caption": "Bane of the Jedi",
+      "standard": true,
+      "extended": true,
+      "ability": "Before you engage, you may spend 1 [Force] to choose 2 enemy ships at range 0-1. Transfer any number of orange and red tokens between those two ships.",
+      "force": { "value": 1, "recovers": 1 },
+      "cost": 8,
+      "loadout": 18,
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/aurrasing.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/aurrasing.png",
+      "slots": [
+        "Talent",
+        "Cannon",
+        "Cannon",
+        "Device",
+        "Illicit",
+        "Modification",
+        "Title"
+      ],
+      "keywords": ["Dark Side", "Bounty Hunter"],
       "epic": true
     }
   ]
