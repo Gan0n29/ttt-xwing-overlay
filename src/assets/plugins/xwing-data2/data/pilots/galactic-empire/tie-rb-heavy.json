@@ -76,7 +76,7 @@
       },
       "standard": true,
       "extended": true,
-      "text": "The TIE/rb heavy, sometimes called the \"brute,\" is designed for operational flexibility. Its heavy armor and capacity to house an integrated MGK-300 droid co-pilot make it an excellent patrol craft.",
+      "text": "The TIE/rb heavy, sometimes called the “brute”, is designed for operational flexibility. Its heavy armor and capacity to house an integrated MGK-300 droid co-pilot make it an excellent patrol craft.",
       "ffg": 695,
       "limited": 0,
       "image": "https://images-cdn.fantasyflightgames.com/filer_public/3d/7c/3d7ca1c1-9e57-4085-a9a6-e82a3d92c6df/swz67_onyx-sentry.png",
@@ -138,6 +138,35 @@
       "extended": true,
       "ffg": 694,
       "image": "https://images-cdn.fantasyflightgames.com/filer_public/6f/37/6f375dcd-61b2-407d-bb3f-0c01cf9491ae/swz67_lyttan-dree.png",
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/d8bce1a532475fe05a10f9d219a67969.jpg",
+      "keywords": ["TIE"],
+      "epic": true
+    },
+    {
+      "name": "Flight Leader Ubbel",
+      "caption": "Onyx Leader",
+      "cost": 5,
+      "loadout": 15,
+      "initiative": 5,
+      "limited": 1,
+      "slots": [
+        "Talent",
+        "Cannon",
+        "Cannon",
+        "Gunner",
+        "Modification",
+        "Modification",
+        "Configuration"
+      ],
+      "xws": "flightleaderubbel",
+      "ability": "After a friendly ship at range 0-2 defends, if it was dealt a damage card, you may perform a bonus attack against the attacker.",
+      "shipAbility": {
+        "name": "Rotating Cannons",
+        "text": "You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]. You must treat the [Front Arc] requirement of your equipped [Cannon] upgrades as [Single Turret Arc]."
+      },
+      "standard": true,
+      "extended": true,
+      "image": "https://infinitearenas.com/xw2/images/pilots/flightleaderubbel.png",
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/d8bce1a532475fe05a10f9d219a67969.jpg",
       "keywords": ["TIE"],
       "epic": true
